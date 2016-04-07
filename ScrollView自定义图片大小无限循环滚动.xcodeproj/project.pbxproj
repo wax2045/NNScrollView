@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CA69741CB4AC960000F00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69731CB4AC960000F00C /* main.m */; };
+		04CA69771CB4AC960000F00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69761CB4AC960000F00C /* AppDelegate.m */; };
+		04CA697A1CB4AC960000F00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69791CB4AC960000F00C /* ViewController.m */; };
+		04CA697D1CB4AC960000F00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA697B1CB4AC960000F00C /* Main.storyboard */; };
+		04CA697F1CB4AC960000F00C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA697E1CB4AC960000F00C /* Images.xcassets */; };
+		04CA69821CB4AC960000F00C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CA69801CB4AC960000F00C /* LaunchScreen.xib */; };
+		04CA698E1CB4AC960000F00C /* ScrollView_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA698D1CB4AC960000F00C /* ScrollView_____________Tests.m */; };
+		04CA699D1CB4AD0C0000F00C /* ScrollView_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA69981CB4AD0C0000F00C /* ScrollView_0.jpg */; };
+		04CA699E1CB4AD0C0000F00C /* ScrollView_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA69991CB4AD0C0000F00C /* ScrollView_1.jpg */; };
+		04CA699F1CB4AD0C0000F00C /* ScrollView_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA699A1CB4AD0C0000F00C /* ScrollView_2.jpg */; };
+		04CA69A01CB4AD0C0000F00C /* ScrollView_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA699B1CB4AD0C0000F00C /* ScrollView_3.jpg */; };
+		04CA69A11CB4AD0C0000F00C /* ScrollView_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA699C1CB4AD0C0000F00C /* ScrollView_4.jpg */; };
+		04CA69A51CB4AD130000F00C /* NNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69A41CB4AD130000F00C /* NNScrollView.m */; };
+		04CA69C71CB4AD300000F00C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04CA69A71CB4AD300000F00C /* LICENSE */; };
+		04CA69C81CB4AD300000F00C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69A81CB4AD300000F00C /* README.md */; };
+		04CA69C91CB4AD300000F00C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69AB1CB4AD300000F00C /* NSData+ImageContentType.m */; };
+		04CA69CA1CB4AD300000F00C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69AD1CB4AD300000F00C /* SDImageCache.m */; };
+		04CA69CB1CB4AD300000F00C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69AF1CB4AD300000F00C /* SDWebImageCompat.m */; };
+		04CA69CC1CB4AD300000F00C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69B11CB4AD300000F00C /* SDWebImageDecoder.m */; };
+		04CA69CD1CB4AD300000F00C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69B31CB4AD300000F00C /* SDWebImageDownloader.m */; };
+		04CA69CE1CB4AD300000F00C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69B51CB4AD300000F00C /* SDWebImageDownloaderOperation.m */; };
+		04CA69CF1CB4AD300000F00C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69B71CB4AD300000F00C /* SDWebImageManager.m */; };
+		04CA69D01CB4AD300000F00C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69BA1CB4AD300000F00C /* SDWebImagePrefetcher.m */; };
+		04CA69D11CB4AD300000F00C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69BC1CB4AD300000F00C /* UIButton+WebCache.m */; };
+		04CA69D21CB4AD300000F00C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69BE1CB4AD300000F00C /* UIImage+GIF.m */; };
+		04CA69D31CB4AD300000F00C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69C01CB4AD300000F00C /* UIImage+MultiFormat.m */; };
+		04CA69D41CB4AD300000F00C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69C21CB4AD300000F00C /* UIImageView+HighlightedWebCache.m */; };
+		04CA69D51CB4AD300000F00C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69C41CB4AD300000F00C /* UIImageView+WebCache.m */; };
+		04CA69D61CB4AD300000F00C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA69C61CB4AD300000F00C /* UIView+WebCacheOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CA69881CB4AC960000F00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CA69661CB4AC960000F00C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CA696D1CB4AC960000F00C;
+			remoteInfo = "ScrollView自定义图片大小无限循环滚动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CA696E1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView自定义图片大小无限循环滚动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA69721CB4AC960000F00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CA69731CB4AC960000F00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CA69751CB4AC960000F00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CA69761CB4AC960000F00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CA69781CB4AC960000F00C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CA69791CB4AC960000F00C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CA697C1CB4AC960000F00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CA697E1CB4AC960000F00C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04CA69811CB4AC960000F00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04CA69871CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView自定义图片大小无限循环滚动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA698C1CB4AC960000F00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CA698D1CB4AC960000F00C /* ScrollView_____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollView_____________Tests.m"; sourceTree = "<group>"; };
+		04CA69981CB4AD0C0000F00C /* ScrollView_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScrollView_0.jpg; sourceTree = "<group>"; };
+		04CA69991CB4AD0C0000F00C /* ScrollView_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScrollView_1.jpg; sourceTree = "<group>"; };
+		04CA699A1CB4AD0C0000F00C /* ScrollView_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScrollView_2.jpg; sourceTree = "<group>"; };
+		04CA699B1CB4AD0C0000F00C /* ScrollView_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScrollView_3.jpg; sourceTree = "<group>"; };
+		04CA699C1CB4AD0C0000F00C /* ScrollView_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScrollView_4.jpg; sourceTree = "<group>"; };
+		04CA69A31CB4AD130000F00C /* NNScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScrollView.h; sourceTree = "<group>"; };
+		04CA69A41CB4AD130000F00C /* NNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScrollView.m; sourceTree = "<group>"; };
+		04CA69A71CB4AD300000F00C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04CA69A81CB4AD300000F00C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04CA69AA1CB4AD300000F00C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		04CA69AB1CB4AD300000F00C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		04CA69AC1CB4AD300000F00C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		04CA69AD1CB4AD300000F00C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		04CA69AE1CB4AD300000F00C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		04CA69AF1CB4AD300000F00C /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		04CA69B01CB4AD300000F00C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		04CA69B11CB4AD300000F00C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		04CA69B21CB4AD300000F00C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		04CA69B31CB4AD300000F00C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		04CA69B41CB4AD300000F00C /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		04CA69B51CB4AD300000F00C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		04CA69B61CB4AD300000F00C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		04CA69B71CB4AD300000F00C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		04CA69B81CB4AD300000F00C /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		04CA69B91CB4AD300000F00C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		04CA69BA1CB4AD300000F00C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		04CA69BB1CB4AD300000F00C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		04CA69BC1CB4AD300000F00C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		04CA69BD1CB4AD300000F00C /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		04CA69BE1CB4AD300000F00C /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		04CA69BF1CB4AD300000F00C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		04CA69C01CB4AD300000F00C /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		04CA69C11CB4AD300000F00C /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		04CA69C21CB4AD300000F00C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		04CA69C31CB4AD300000F00C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		04CA69C41CB4AD300000F00C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		04CA69C51CB4AD300000F00C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		04CA69C61CB4AD300000F00C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CA696B1CB4AC960000F00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA69841CB4AC960000F00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CA69651CB4AC960000F00C = {
+			isa = PBXGroup;
+			children = (
+				04CA69701CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动 */,
+				04CA698A1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests */,
+				04CA696F1CB4AC960000F00C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CA696F1CB4AC960000F00C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CA696E1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动.app */,
+				04CA69871CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CA69701CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69A21CB4AD130000F00C /* ScrollerView */,
+				04CA69751CB4AC960000F00C /* AppDelegate.h */,
+				04CA69761CB4AC960000F00C /* AppDelegate.m */,
+				04CA69781CB4AC960000F00C /* ViewController.h */,
+				04CA69791CB4AC960000F00C /* ViewController.m */,
+				04CA697B1CB4AC960000F00C /* Main.storyboard */,
+				04CA697E1CB4AC960000F00C /* Images.xcassets */,
+				04CA69801CB4AC960000F00C /* LaunchScreen.xib */,
+				04CA69711CB4AC960000F00C /* Supporting Files */,
+			);
+			path = "ScrollView自定义图片大小无限循环滚动";
+			sourceTree = "<group>";
+		};
+		04CA69711CB4AC960000F00C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69A61CB4AD300000F00C /* SDWebImage */,
+				04CA69971CB4AD0C0000F00C /* image */,
+				04CA69721CB4AC960000F00C /* Info.plist */,
+				04CA69731CB4AC960000F00C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CA698A1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04CA698D1CB4AC960000F00C /* ScrollView_____________Tests.m */,
+				04CA698B1CB4AC960000F00C /* Supporting Files */,
+			);
+			path = "ScrollView自定义图片大小无限循环滚动Tests";
+			sourceTree = "<group>";
+		};
+		04CA698B1CB4AC960000F00C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CA698C1CB4AC960000F00C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CA69971CB4AD0C0000F00C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69981CB4AD0C0000F00C /* ScrollView_0.jpg */,
+				04CA69991CB4AD0C0000F00C /* ScrollView_1.jpg */,
+				04CA699A1CB4AD0C0000F00C /* ScrollView_2.jpg */,
+				04CA699B1CB4AD0C0000F00C /* ScrollView_3.jpg */,
+				04CA699C1CB4AD0C0000F00C /* ScrollView_4.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		04CA69A21CB4AD130000F00C /* ScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69A31CB4AD130000F00C /* NNScrollView.h */,
+				04CA69A41CB4AD130000F00C /* NNScrollView.m */,
+			);
+			path = ScrollerView;
+			sourceTree = "<group>";
+		};
+		04CA69A61CB4AD300000F00C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69A71CB4AD300000F00C /* LICENSE */,
+				04CA69A81CB4AD300000F00C /* README.md */,
+				04CA69A91CB4AD300000F00C /* SDWebImage */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		04CA69A91CB4AD300000F00C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				04CA69AA1CB4AD300000F00C /* NSData+ImageContentType.h */,
+				04CA69AB1CB4AD300000F00C /* NSData+ImageContentType.m */,
+				04CA69AC1CB4AD300000F00C /* SDImageCache.h */,
+				04CA69AD1CB4AD300000F00C /* SDImageCache.m */,
+				04CA69AE1CB4AD300000F00C /* SDWebImageCompat.h */,
+				04CA69AF1CB4AD300000F00C /* SDWebImageCompat.m */,
+				04CA69B01CB4AD300000F00C /* SDWebImageDecoder.h */,
+				04CA69B11CB4AD300000F00C /* SDWebImageDecoder.m */,
+				04CA69B21CB4AD300000F00C /* SDWebImageDownloader.h */,
+				04CA69B31CB4AD300000F00C /* SDWebImageDownloader.m */,
+				04CA69B41CB4AD300000F00C /* SDWebImageDownloaderOperation.h */,
+				04CA69B51CB4AD300000F00C /* SDWebImageDownloaderOperation.m */,
+				04CA69B61CB4AD300000F00C /* SDWebImageManager.h */,
+				04CA69B71CB4AD300000F00C /* SDWebImageManager.m */,
+				04CA69B81CB4AD300000F00C /* SDWebImageOperation.h */,
+				04CA69B91CB4AD300000F00C /* SDWebImagePrefetcher.h */,
+				04CA69BA1CB4AD300000F00C /* SDWebImagePrefetcher.m */,
+				04CA69BB1CB4AD300000F00C /* UIButton+WebCache.h */,
+				04CA69BC1CB4AD300000F00C /* UIButton+WebCache.m */,
+				04CA69BD1CB4AD300000F00C /* UIImage+GIF.h */,
+				04CA69BE1CB4AD300000F00C /* UIImage+GIF.m */,
+				04CA69BF1CB4AD300000F00C /* UIImage+MultiFormat.h */,
+				04CA69C01CB4AD300000F00C /* UIImage+MultiFormat.m */,
+				04CA69C11CB4AD300000F00C /* UIImageView+HighlightedWebCache.h */,
+				04CA69C21CB4AD300000F00C /* UIImageView+HighlightedWebCache.m */,
+				04CA69C31CB4AD300000F00C /* UIImageView+WebCache.h */,
+				04CA69C41CB4AD300000F00C /* UIImageView+WebCache.m */,
+				04CA69C51CB4AD300000F00C /* UIView+WebCacheOperation.h */,
+				04CA69C61CB4AD300000F00C /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CA696D1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA69911CB4AC960000F00C /* Build configuration list for PBXNativeTarget "ScrollView自定义图片大小无限循环滚动" */;
+			buildPhases = (
+				04CA696A1CB4AC960000F00C /* Sources */,
+				04CA696B1CB4AC960000F00C /* Frameworks */,
+				04CA696C1CB4AC960000F00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollView自定义图片大小无限循环滚动";
+			productName = "ScrollView自定义图片大小无限循环滚动";
+			productReference = 04CA696E1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CA69861CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA69941CB4AC960000F00C /* Build configuration list for PBXNativeTarget "ScrollView自定义图片大小无限循环滚动Tests" */;
+			buildPhases = (
+				04CA69831CB4AC960000F00C /* Sources */,
+				04CA69841CB4AC960000F00C /* Frameworks */,
+				04CA69851CB4AC960000F00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CA69891CB4AC960000F00C /* PBXTargetDependency */,
+			);
+			name = "ScrollView自定义图片大小无限循环滚动Tests";
+			productName = "ScrollView自定义图片大小无限循环滚动Tests";
+			productReference = 04CA69871CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CA69661CB4AC960000F00C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04CA696D1CB4AC960000F00C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04CA69861CB4AC960000F00C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04CA696D1CB4AC960000F00C;
+					};
+				};
+			};
+			buildConfigurationList = 04CA69691CB4AC960000F00C /* Build configuration list for PBXProject "ScrollView自定义图片大小无限循环滚动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CA69651CB4AC960000F00C;
+			productRefGroup = 04CA696F1CB4AC960000F00C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CA696D1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动 */,
+				04CA69861CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CA696C1CB4AC960000F00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA699D1CB4AD0C0000F00C /* ScrollView_0.jpg in Resources */,
+				04CA697D1CB4AC960000F00C /* Main.storyboard in Resources */,
+				04CA699F1CB4AD0C0000F00C /* ScrollView_2.jpg in Resources */,
+				04CA699E1CB4AD0C0000F00C /* ScrollView_1.jpg in Resources */,
+				04CA69A11CB4AD0C0000F00C /* ScrollView_4.jpg in Resources */,
+				04CA69821CB4AC960000F00C /* LaunchScreen.xib in Resources */,
+				04CA69C71CB4AD300000F00C /* LICENSE in Resources */,
+				04CA697F1CB4AC960000F00C /* Images.xcassets in Resources */,
+				04CA69A01CB4AD0C0000F00C /* ScrollView_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA69851CB4AC960000F00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CA696A1CB4AC960000F00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA69D41CB4AD300000F00C /* UIImageView+HighlightedWebCache.m in Sources */,
+				04CA69D31CB4AD300000F00C /* UIImage+MultiFormat.m in Sources */,
+				04CA69CE1CB4AD300000F00C /* SDWebImageDownloaderOperation.m in Sources */,
+				04CA697A1CB4AC960000F00C /* ViewController.m in Sources */,
+				04CA69CB1CB4AD300000F00C /* SDWebImageCompat.m in Sources */,
+				04CA69D61CB4AD300000F00C /* UIView+WebCacheOperation.m in Sources */,
+				04CA69D21CB4AD300000F00C /* UIImage+GIF.m in Sources */,
+				04CA69D01CB4AD300000F00C /* SDWebImagePrefetcher.m in Sources */,
+				04CA69771CB4AC960000F00C /* AppDelegate.m in Sources */,
+				04CA69C81CB4AD300000F00C /* README.md in Sources */,
+				04CA69CD1CB4AD300000F00C /* SDWebImageDownloader.m in Sources */,
+				04CA69D11CB4AD300000F00C /* UIButton+WebCache.m in Sources */,
+				04CA69741CB4AC960000F00C /* main.m in Sources */,
+				04CA69C91CB4AD300000F00C /* NSData+ImageContentType.m in Sources */,
+				04CA69A51CB4AD130000F00C /* NNScrollView.m in Sources */,
+				04CA69D51CB4AD300000F00C /* UIImageView+WebCache.m in Sources */,
+				04CA69CF1CB4AD300000F00C /* SDWebImageManager.m in Sources */,
+				04CA69CC1CB4AD300000F00C /* SDWebImageDecoder.m in Sources */,
+				04CA69CA1CB4AD300000F00C /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA69831CB4AC960000F00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA698E1CB4AC960000F00C /* ScrollView_____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CA69891CB4AC960000F00C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CA696D1CB4AC960000F00C /* ScrollView自定义图片大小无限循环滚动 */;
+			targetProxy = 04CA69881CB4AC960000F00C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CA697B1CB4AC960000F00C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA697C1CB4AC960000F00C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CA69801CB4AC960000F00C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA69811CB4AC960000F00C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CA698F1CB4AC960000F00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CA69901CB4AC960000F00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CA69921CB4AC960000F00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView自定义图片大小无限循环滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CA69931CB4AC960000F00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView自定义图片大小无限循环滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04CA69951CB4AC960000F00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollView自定义图片大小无限循环滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView自定义图片大小无限循环滚动.app/ScrollView自定义图片大小无限循环滚动";
+			};
+			name = Debug;
+		};
+		04CA69961CB4AC960000F00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollView自定义图片大小无限循环滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView自定义图片大小无限循环滚动.app/ScrollView自定义图片大小无限循环滚动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CA69691CB4AC960000F00C /* Build configuration list for PBXProject "ScrollView自定义图片大小无限循环滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA698F1CB4AC960000F00C /* Debug */,
+				04CA69901CB4AC960000F00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CA69911CB4AC960000F00C /* Build configuration list for PBXNativeTarget "ScrollView自定义图片大小无限循环滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA69921CB4AC960000F00C /* Debug */,
+				04CA69931CB4AC960000F00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CA69941CB4AC960000F00C /* Build configuration list for PBXNativeTarget "ScrollView自定义图片大小无限循环滚动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA69951CB4AC960000F00C /* Debug */,
+				04CA69961CB4AC960000F00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CA69661CB4AC960000F00C /* Project object */;
+}
